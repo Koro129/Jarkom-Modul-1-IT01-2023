@@ -15,6 +15,10 @@ Setelah itu tinggal hitung jumlah package yg ada, yaitu ada 21. Lalu masukkan 21
 ![3-2](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/3%20terminal.png)
 note : Untuk hasil flag yang berada pada screenshot diatas berbeda dari yang di submit karena untuk CMD nya sudah terclose, jadi saya mengulangi sekali lagi untuk cara pengerjaannya
 
+4. Cari package pada urutan ke 130, setelah itu klik 2 kali dan cari nilai checksum.setelah menemukan nilainya, bisa inputkan pada nc dan mendapatkan hasil flagnya.
+![4-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/4.png)
+![4-2](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/4%20terminal.png)
+
 5. Follow SMTP kemudian baca, dan ditemukan ada password yang di encode base64, kemudian lakukan decode, kemudian ekstrak zip dengan password yang diberikan. Konek ke nc yang terdapat disitu, kemudian jawab pertanyaan dengan analisis
 ![5-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/5-1.jpg)
 ![5-2](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/5-2.jpg)
@@ -28,6 +32,12 @@ note : Untuk hasil flag yang berada pada screenshot diatas berbeda dari yang di 
 
 7. Menggunakan filter ip.dst, lalu dihitung jumlah packetnya yaitu ada 6
 ![7-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/7.jpg)
+
+8. Dengan filter ini, Wireshark akan menampilkan semua paket yang memiliki port tujuan 80, baik menggunakan protokol TCP atau UDP.
+![8-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/8%20terminal.png)
+
+9. Dengan filter ini, Wireshark akan menampilkan semua paket yang berasal dari alamat IP 10.51.40.1 dan tidak menuju ke alamat IP 10.39.55.34.
+![9-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/9%20terminal.png)
 
 10. Filter dengan telnet, lalu follow streamnya. di stream terakhir terdapat password. dan di stream 2 ada username dengan password yang sama
 ![10-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/10-1.jpg)
