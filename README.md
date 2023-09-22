@@ -11,7 +11,6 @@
 3. Untuk melihat berapa banyak paket yang tercapture dengan alamat IP source atau destination adalah 239.255.255.250 dan port 3702 di Wireshark, gunakan filter berikut:
 (ip.src == 239.255.255.250 && udp.port == 3702) || (ip.dst == 239.255.255.250 && udp.port == 3702)
 ![3-1](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/3.png)
-
 Setelah itu tinggal hitung jumlah package yg ada, yaitu ada 21. Lalu masukkan 21 ke jawaban, setelah jawaban benar ada soal lagi yaitu menggunakan protokol apa, sesuai dari hasil filternya, package package diatas menggunakan protokol UDP
 ![3-2](https://github.com/Koro129/Jarkom-Modul-1-IT01-2023/blob/main/screenshot/3%20terminal.png)
 note : Untuk hasil flag yang berada pada screenshot diatas berbeda dari yang di submit karena untuk CMD nya sudah terclose, jadi saya mengulangi sekali lagi untuk cara pengerjaannya
